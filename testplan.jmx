@@ -1,0 +1,24 @@
+Thread Group:
+- Number of Threads (usuários virtuais): 10
+- Ramp-Up Period (tempo de subida): 5 segundos
+- Loop Count (contagem de repetições): 1
+
+HTTP Request Defaults:
+- Server Name or IP: localhost
+- Path: /
+
+HTTP Request (Acessar a Página Inicial):
+- Protocol: http
+- Method: GET
+
+View Results Tree (Verificar Conteúdo da Página):
+
+HTTP Request (Verificar Links):
+- Protocol: http
+- Method: GET
+
+View Results Tree (Verificar Resultados):
+
+Listeners (ouvir):
+- Summary Report
+- Aggregate Report
