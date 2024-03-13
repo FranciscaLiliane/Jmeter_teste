@@ -17,11 +17,11 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">${__P(THREADS)}</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">${__P(RAMPUP)}</stringProp>
+        <stringProp name="ThreadGroup.num_threads">${__P(threads)}</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${__P(rampup)}</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration">${__P(DURATION)}</stringProp>
-        <stringProp name="ThreadGroup.delay">${__P(STARTDELAY)}</stringProp>
+        <stringProp name="ThreadGroup.duration">${__P(duration)}</stringProp>
+        <stringProp name="ThreadGroup.delay">${__P(startdelay)}</stringProp>
       </ThreadGroup>
       <hashTree/>
     </hashTree>
